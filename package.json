@@ -1,5 +1,4 @@
 {
-  "homepage": "https://github.com/singhakash7123/Gaming_Website.git",
   "name": "gaming_website",
   "version": "0.1.0",
   "private": true,
@@ -7,13 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "predeploy":"npm run build",
-    "deploy": "gh-pages -d out"
-    
+    "lint": "eslint"
   },
   "dependencies": {
-    "gh-pages": "^6.3.0",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3",
