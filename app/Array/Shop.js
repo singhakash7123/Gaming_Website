@@ -1,0 +1,44 @@
+const Shop = [
+    {
+        item_type:"Chair",
+        price:"$100",
+        id:1
+    },
+    {
+        item_type:"Chair",
+        price:"$100",
+        id:2
+    },
+    {
+        item_type:"Headphone",
+        price:"$100",
+        id:3
+    },
+    {
+        item_type:"Headset",
+        price:"$100",
+        id:4
+    },
+    {
+        item_type:"Mouse",
+        price:"$100",
+        id:5
+    },
+    {
+        item_type:"T-Shirt",
+        price:"$100",
+        id:6
+    },
+    {
+        item_type:"Chair",
+        price:"$100",
+        id:7
+    },
+    {
+        item_type:"Chair",
+        price:"$100",
+        id:8
+    }
+]
+
+export default Shop
