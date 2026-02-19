@@ -4,11 +4,11 @@ const Data = () => {
   return (
     <section className='py-20 bg-black text-white'>
         <div className='max-w-6xl w-full mx-auto flex flex-wrap items-center justify-center sm:justify-between gap-x-5 gap-y-15 px-8 '>
-            <diV className=' min-w-1/4  sm:max-w-1/4  flex flex-col items-center gap-y-4 '>
+            <div className=' min-w-1/4  sm:max-w-1/4  flex flex-col items-center gap-y-4 '>
             <span className='text-6xl text-purple-500'><SlGameController /></span>
            <h4 className='text-center text-2xl font-bold mt-5 text-purple-500'>ELEMENTAL POWERS</h4>
            <p className='text-center'>Choose your Guardian and master elemental abilities such as fire, water, earth, or air to solve puzzles and combat enemies.</p>
-            </diV>
+            </div>
             <diV className=' min-w-1/4  sm:max-w-1/4   flex flex-col items-center gap-y-4 '>
             <span className='text-6xl text-purple-500'><SlGameController /></span>
             <h4 className='text-center text-2xl font-bold mt-5 text-purple-500'>MULTIPLAYER</h4>

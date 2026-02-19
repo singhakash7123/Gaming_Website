@@ -10,7 +10,7 @@ const PortFolio = () => {
     <>
       <Banner content={'PORTFOLIO'}/>
     <div className='w-screen bg-gray-900'>
-    <div className=' w-full max-w-6xl mx-auto  py-5 flex items-center justify-center gap-x-5'>
+    <div className=' w-full max-w-6xl mx-auto  py-5 flex items-center justify-center gap-x-5 text-xs md:text-sm '>
       <button className='p-2 text-gray-400 border-2 border-gray-400 rounded-3xl hover:bg-purple-500 hover:text-white '>ALL</button>
       <button className='p-2 text-gray-400 border-2 border-gray-400 rounded-3xl hover:bg-purple-500 hover:text-white '>OFFLINE GAMES</button>
       <button className='p-2 text-gray-400 border-2 border-gray-400 rounded-3xl hover:bg-purple-500 hover:text-white '>ESPORTS</button>

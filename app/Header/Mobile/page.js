@@ -17,12 +17,12 @@ const MobileMenu = () => {
               <h1 className=' w-full font-extrabold text-white text-3xl tracking-wider py-5 '>TINJA</h1>
               <button onClick={()=>{setShowMenu(false)}} className='text-2xl text-white'><RxCross1 /></button>
               </li>
-                <li className='w-full flex items-center justify-between font-semibold text-xm border-b-2 border-gray-800 hover:text-purple-400 transition-all duration-300  text-white '> <Link href={'/'}> HOME</Link> <span>+</span> </li>
-                <li className='w-full flex items-center justify-between font-semibold text-xm border-b-2 border-gray-800 hover:text-purple-400 transition-all duration-300  text-white'> <Link href={'/'}> TOURNAMENT </Link> <span>+</span> </li>
-                <li className='w-full flex items-center justify-between font-semibold text-xm border-b-2 border-gray-800 hover:text-purple-400 transition-all duration-300  text-white'> <Link href={'/PortFolio'}> PORTFOLIO </Link> <span>+</span> </li>
-                <li className='w-full flex items-center justify-between font-semibold text-xm border-b-2 border-gray-800 hover:text-purple-400 transition-all duration-300  text-white'><Link href={'/Shop'}> SHOP </Link> <span>+</span> </li>
-                <li className='w-full flex items-center justify-between font-semibold text-xm border-b-2 border-gray-800 hover:text-purple-400 transition-all duration-300  text-white'> <Link href={'/Blog'}> BLOG </Link> <span>+</span> </li>
-                <li className='w-full flex items-center justify-between font-semibold text-xm border-b-2 border-gray-800 hover:text-purple-400 transition-all duration-300  text-white'> <Link href={'/Contact'}> CONTACT </Link> </li>
+                <li className='w-full flex items-center justify-between font-semibold text-xm border-b-2 border-gray-800 hover:text-purple-400 transition-all duration-300  text-white '> <Link onClick={()=>{setShowMenu(false)}} href={'/'}> HOME</Link> <span>+</span> </li>
+                <li className='w-full flex items-center justify-between font-semibold text-xm border-b-2 border-gray-800 hover:text-purple-400 transition-all duration-300  text-white'> <Link onClick={()=>{setShowMenu(false)}}  href={'/'}> TOURNAMENT </Link> <span>+</span> </li>
+                <li className='w-full flex items-center justify-between font-semibold text-xm border-b-2 border-gray-800 hover:text-purple-400 transition-all duration-300  text-white'> <Link onClick={()=>{setShowMenu(false)}}  href={'/PortFolio'}> PORTFOLIO </Link> <span>+</span> </li>
+                <li className='w-full flex items-center justify-between font-semibold text-xm border-b-2 border-gray-800 hover:text-purple-400 transition-all duration-300  text-white'> <Link  onClick={()=>{setShowMenu(false)}} href={'/Shop'}> SHOP </Link> <span>+</span> </li>
+                <li className='w-full flex items-center justify-between font-semibold text-xm border-b-2 border-gray-800 hover:text-purple-400 transition-all duration-300  text-white'> <Link onClick={()=>{setShowMenu(false)}}  href={'/Blog'}> BLOG </Link> <span>+</span> </li>
+                <li className='w-full flex items-center justify-between font-semibold text-xm border-b-2 border-gray-800 hover:text-purple-400 transition-all duration-300  text-white'> <Link onClick={()=>{setShowMenu(false)}}  href={'/Contact'}> CONTACT </Link> </li>
                 <li className='w-full flex items-center gap-x-8 font-semibold text-xm  hover:text-purple-400 transition-all duration-300  text-white text-3xl'> <button><PiShoppingCartSimpleBold /> </button> <button>  <IoSearch /> </button> </li>
             </ul>
     
