@@ -4,7 +4,7 @@ import List from './List/page.js'
 import array from '../Array/PortFolio.js'
 const PortFolio = () => {
   const Lists = array.map((item,index)=>{
-    return <List content={item} key={index} />
+    return <List content={item.name} image={item.image} key={index} />
   })
   return (
     <>

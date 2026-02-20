@@ -6,7 +6,7 @@ import array from '../Array/Shop.js'
 const Shop = () => {
   const ShopArray = array.map((item)=>{
     return(
-      <ShopItems type = {item.item_type} key={item.id} price={item.price}/>
+      <ShopItems type = {item.item_type} key={item.id} price={item.price} image={item.image}/>
     )
   })
   return (

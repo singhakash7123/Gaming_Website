@@ -6,7 +6,7 @@ import { IoSearch } from "react-icons/io5";
 import Link from 'next/link.js';
 const Blog = () => {
   const posts = array.slice(0,5).map((item,index)=>{
-    return <Post key={index} heading={item.heading} date={item.date} />
+    return <Post key={index} heading={item.heading} date={item.date} image={item.image} />
   })
   return (
     <>
