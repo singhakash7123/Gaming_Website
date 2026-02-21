@@ -2,6 +2,11 @@ import React from 'react'
 import { FaTwitch } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
+import Image from 'next/image';
+import team_01 from '../../Image/team_01.jpg'
+import team_02 from '../../Image/team_02.jpg'
+import team_03 from '../../Image/team_03.jpg'
+
 const Team = () => {
   return (
     <section className='text-white py-10 bg-black'>
@@ -15,8 +20,10 @@ const Team = () => {
             </div>
 
             <div className='w-full flex flex-col md:flex-row flex-wrap lg:flex-nowrap items-center md:items-stretch justify-center gap-x-5 gap-y-8 mt-10 '>
-                <div className=' max-w-lg w-full md:w-xs lg:w-sm bg-green-400'>
-                <div className='w-full aspect-square bg-yellow-400'></div>
+                <div className=' max-w-lg w-full md:w-xs lg:w-sm bg-black'>
+                <div className='w-full aspect-square bg-yellow-400 relative'>
+                    <Image src={team_01} alt='team' fill className='object-cover' />
+                </div>
                 <div className='w-full  flex items-center justify-between mt-2 gap-x-2'>
                    <p> <span className='text-sm sm:text-2xl font-extrabold'>Robert Fox</span> <br/> <span className='font-semibold text-xs'>Team Captain</span> </p> 
                     <p className='flex items-center  gap-x-4'>
@@ -26,8 +33,10 @@ const Team = () => {
                    </p>
                 </div>
                 </div>
-                <div className='max-w-lg w-full md:w-xs lg:w-sm bg-blue-400'>
-                  <div className='w-full aspect-square bg-yellow-400'></div>
+                <div className='max-w-lg w-full md:w-xs lg:w-sm bg-black'>
+                  <div className='w-full aspect-square bg-yellow-400 relative'>
+                    <Image src={team_02} alt='team' fill className='object-cover' />
+                  </div>
                    <div className='w-full  flex items-center justify-between mt-2 gap-x-2'>
                    <p> <span className='text-sm sm:text-2xl font-extrabold'>Esther Howard</span> <br/> <span className='font-semibold text-xs'>Support Player</span> </p> 
                     <p className='flex items-center  gap-x-4'>
@@ -37,8 +46,10 @@ const Team = () => {
                    </p>
                 </div>
                 </div>
-                <div className='max-w-lg w-full md:w-xs lg:w-sm bg-yellow-400'>
-                  <div className='w-full aspect-square bg-red-400'></div>
+                <div className='max-w-lg w-full md:w-xs lg:w-sm bg-black'>
+                  <div className='w-full aspect-square bg-red-400 relative'>
+                    <Image src={team_03} alt='team' fill className='object-cover' />
+                  </div>
                    <div className='w-full  flex items-center justify-between mt-2 gap-x-2'>
                    <p> <span className='text-sm sm:text-2xl font-extrabold'>Jacob Jones</span> <br/> <span className='font-semibold text-xs'>Streamer</span> </p> 
                    <p className='flex items-center  gap-x-4'>

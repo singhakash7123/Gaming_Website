@@ -1,5 +1,7 @@
 import React from 'react'
 import { MdOutlineArrowOutward } from "react-icons/md";
+import community from '../../Image/community.jpg'
+import Image from 'next/image';
 const Updates = () => {
   return (
     <section className='bg-black text-white py-24'>
@@ -8,7 +10,9 @@ const Updates = () => {
             <h3 className='text-4xl font-extrabold'>LATEST NEWS</h3>
             <div className='w-full px-5 py-8 flex flex-col lg:flex-row items-start lg:items-center lg:justify-center gap-x-15 gap-y-6 border border-gray-400 border-l-0 border-r-0 mt-10'>
                 <div className='max-w-150 w-full lg:basis-1/3 aspect-2/1 lg:aspect-5/4 '>
-                <div className=' w-full h-full bg-red-400'></div>
+                <div className=' w-full h-full bg-red-400 relative'>
+                  <Image src={community} alt='image' fill className='object-cover' />
+                </div>
                 </div>
                 <div className='basis-1/3 '>
                 <h4 className='text-lg font-extrabold hover:text-purple-500'>GAMEPLAY CHRONICLES: UNVEILING DIGITAL REALMS</h4>
